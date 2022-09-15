@@ -1,12 +1,28 @@
 h1 {
     text-align: center;
+    color: #A49393
 }
 
 button {
     margin: 0;
     position: absolute;
-    top: 10%;
+    top: 14%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    color: #67595E;
+    background-color: #A49393;
+    width: 180px;
+    height: 70px;
+    border-radius: 8%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: 0 3px 3px 0 rgb(232, 180, 184);
+    font-size: large;
+}
+
+button:hover {
+    background-color: #E8B4B8;
+    transition-delay: 100ms;
+
 }
