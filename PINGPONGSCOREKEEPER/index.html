@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container text-center mainpingpong">
+        <div class="row align-items-start">
+            <div class="col">
+                <img
+                    src="https://images.pexels.com/photos/976873/pexels-photo-976873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            </div>
+        </div>
+        <div class="row align-items-start">
+            <div class="col h4">
+                Ping Pong Score Keeper
+            </div>
+        </div>
+        <div class="row align-items-start">
+            <div class="col h2 scoretext">
+                <span class="player1">0</span> to <span class="player2">0</span>
+            </div>
+        </div>
+        <div class="row align-items-start">
+            <div class="col h5">
+                Use the buttons below to keep score
+            </div>
+        </div>
+        <div class="row align-items-start">
+            <div class="col h2">
+                Playing to <select name="" id="playto">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select>
+            </div>
+        </div>
+        <div class="btn-group">
+
+            <button class="btn btn-primary col-4 button1">+1 To Player One</button>
+            <button class="btn btn-secondary col-4  button2"">+1 To Player Two</button>
+            <button class=" btn btn-outline-danger col-4 resetbutton">Reset</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
